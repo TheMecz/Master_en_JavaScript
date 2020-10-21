@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title> Mi primera web </title>
+
+    </head>
+    <body>
+        <h1>Titulo de mi web</h1>
+        <h2><br/>Bienvenidos a mi web</h2>
+        <p><br/> Hola Mundo </p>
+        <!--<br/> se usa para hacer saltos de línea -->
+        <!-- <hr/> se usa para hacer saltos con una linea de separación.-->
+        <hr/>
+        <!-- tiquetas -->
+        <p><strong>Esta etiqueta permite poner el texto en negrita.</strong></p>
+        <p><em>Esta etiqueta permite poner el texto en cursiva.</em></p>
+        <p><span>Esta etiqueta permite hacer maquetación con CSS.</span></p>
+        <p><i>Esta es otra etiqueta que nos permite poner el texto en cursiva.</i></p>
+        <p><blockquote>Esta stiqueta nos permite tener una formato de sitación.</blockquote></p>
+        <hr/>
+        <!-- Listas {% endcomment %} -->
+        <h3> Lista numerada de Frutas </h3>
+        <ol>
+            <li>Manzana</li>
+            <li>Naranja</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ol>
+        <h3> Listado puntuada de Frutas
+        <ul>
+            <li>Manzana
+                <!-- Tambien podemos hacer sub listas -->
+                <ul>
+                    <li>Manzana roja</li>
+                    <li>Manzana verde</li>
+                </ul>
+            </li>
+            <li>Naraja</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <hr/>
+            <h2>Imagenes en HTML</h2>
+            <img src= "imagenes\perro.jpg" alt="Imagen de un perro" title="Foto de perro" width = "500px" height="500px"
+            />
+        <hr/>
+
+        <hr/>
+            <h3>Tablas</h3>
+            <table border="1">
+                <tr>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Pais</td>
+                </tr>
+                <tr>
+                    <td>Victor</td>
+                    <td>Robles</td>
+                    <td>España</td>
+                </tr>
+                <tr>
+                    <td>Kevin</td>
+                    <td colspan="2">Lopez</td>
+                </tr>
+            </table>
+        <hr/>
+
+        <hr/>
+            <h3>Formulario</h3>
+            <form>
+                <p>
+                    <label for = "nombre">Nombre</label>
+                    <input type "text" name="nombre" placeholder="Escribe tu nombre..."/>
+                </p>
+                <p>
+                    <label for = "descripcion">Descripción</label>
+                    <textarea name="descripcion"></textarea>
+                </p>
+
+                <input type="radio" name="genero" value="hombre">Hombre <br/>
+                <input type="radio" name="genero" value="mujer">Mujer <br/>
+                <input type="radio" name="genero" value="nada">Nada <br/>
+
+                <select name="genero 2">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="nada">Nada</option>
+                </select>
+
+                <input type="submit" value="Enviar formulario"
+            </from>
+        <hr/>
+
+    </body>
+
+
+</html>

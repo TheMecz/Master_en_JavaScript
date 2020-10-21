@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "version": "canary",
+            "type": "edge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "file:///C:/Users/maxpo/Desktop/Master_en_JavaScript/HTML/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+        {
+            "version": "canary",
+            "type": "edge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "file:///C:/Users/maxpo/Desktop/Master_en_JavaScript/HTML/Ejercicio_1.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
