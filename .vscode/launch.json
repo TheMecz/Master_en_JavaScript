@@ -5,15 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "version": "canary",
-            "type": "edge",
-            "request": "launch",
-            "name": "Launch Edge against localhost",
-            "url": "file:///C:/Users/maxpo/Desktop/Master_en_JavaScript/HTML/index.html",
-            "webRoot": "${workspaceFolder}"
-        }
-        {
-            "version": "canary",
             "type": "edge",
             "request": "launch",
             "name": "Launch Edge against localhost",
